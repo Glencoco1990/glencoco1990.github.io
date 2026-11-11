@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpyScan</title>
+<style>
+  :root { --bg:#0E1116; --card:#181C24; --text:#E8ECF2; --muted:#8A93A3; --green:#3DDC97; }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Noto Sans Thai",sans-serif; }
+  main { max-width:560px; margin:0 auto; padding:40px 16px; }
+  h1 { font-size:34px; margin:0 } .sub { color:var(--muted); margin:6px 0 28px }
+  a.btn { display:block; text-align:center; background:var(--green); color:var(--bg); font-weight:700; font-size:20px;
+          padding:18px; border-radius:18px; text-decoration:none }
+  .card { background:var(--card); border-radius:16px; padding:18px; margin-top:16px }
+  ol, ul { padding-left:20px; margin:8px 0 } small { color:var(--muted) }
+</style>
+</head>
+<body>
+<main>
+  <h1>🛡️ SpyScan</h1>
+  <p class="sub">กดปุ่มเดียว ตรวจว่ามือถือ Android มีแอปสอดแนมหรือของแปลกปลอมไหม — สแกนในเครื่อง ไม่ส่งข้อมูลออก</p>
+  <a class="btn" href="https://github.com/glencoco1990/glencoco1990.github.io/releases/latest/download/spyscan.apk">⬇️ ดาวน์โหลด APK</a>
+  <div class="card">
+    <b>ติดตั้ง</b>
+    <ol>
+      <li>เปิดลิงก์นี้บนมือถือ แล้วกดดาวน์โหลด</li>
+      <li>เปิดไฟล์ <code>spyscan.apk</code> → อนุญาต "ติดตั้งแอปที่ไม่รู้จัก" ให้เบราว์เซอร์</li>
+      <li>เปิดแอป กด <b>สแกนเลย</b></li>
+      <li>เสร็จแล้วปิดสิทธิ์ "ติดตั้งแอปที่ไม่รู้จัก" คืนด้วย</li>
+    </ol>
+  </div>
+  <div class="card">
+    <b>ตรวจอะไรบ้าง</b>
+    <ul>
+      <li>ชื่อแอปสอดแนมที่รู้จัก (mSpy, FlexiSPY, Hoverwatch, TheTruthSpy ฯลฯ)</li>
+      <li>แอปที่เปิด Accessibility, Device Admin, อ่านการแจ้งเตือน</li>
+      <li>แอปซ่อนไอคอน, ตั้งชื่อเลียนแบบระบบ, ไม่ได้มาจาก App Store</li>
+      <li>สิทธิ์ SMS / ประวัติโทร / ไมค์ / ตำแหน่งเบื้องหลัง</li>
+      <li>Root, ใบรับรอง CA แปลกปลอม, VPN, USB Debugging, รหัสล็อกจอ, แพตช์ความปลอดภัย</li>
+    </ul>
+    <small>เป็นเครื่องมือตรวจสัญญาณจากพฤติกรรม ไม่ใช่แอนตี้ไวรัส ตรวจสปายแวร์ระดับรัฐ (เช่น Pegasus) ไม่ได้</small>
+  </div>
+</main>
+</body>
+</html>
